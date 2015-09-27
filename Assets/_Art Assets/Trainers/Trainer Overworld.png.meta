@@ -1,0 +1,3048 @@
+fileFormatVersion: 2
+guid: e9337a1ed732bd84d974fd8c85900853
+timeCreated: 1443026599
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Trainer Overworld_0
+    21300002: Trainer Overworld_1
+    21300004: Trainer Overworld_2
+    21300006: Trainer Overworld_3
+    21300008: Trainer Overworld_4
+    21300010: Trainer Overworld_5
+    21300012: Trainer Overworld_6
+    21300014: Trainer Overworld_7
+    21300016: Trainer Overworld_8
+    21300018: Trainer Overworld_9
+    21300020: Trainer Overworld_10
+    21300022: Trainer Overworld_11
+    21300024: Trainer Overworld_12
+    21300026: Trainer Overworld_13
+    21300028: Trainer Overworld_14
+    21300030: Trainer Overworld_15
+    21300032: Trainer Overworld_16
+    21300034: Trainer Overworld_17
+    21300036: Trainer Overworld_18
+    21300038: Trainer Overworld_19
+    21300040: Trainer Overworld_20
+    21300042: Trainer Overworld_21
+    21300044: Trainer Overworld_22
+    21300046: Trainer Overworld_23
+    21300048: Trainer Overworld_24
+    21300050: Trainer Overworld_25
+    21300052: Trainer Overworld_26
+    21300054: Trainer Overworld_27
+    21300056: Trainer Overworld_28
+    21300058: Trainer Overworld_29
+    21300060: Trainer Overworld_30
+    21300062: Trainer Overworld_31
+    21300064: Trainer Overworld_32
+    21300066: Trainer Overworld_33
+    21300068: Trainer Overworld_34
+    21300070: Trainer Overworld_35
+    21300072: Trainer Overworld_36
+    21300074: Trainer Overworld_37
+    21300076: Trainer Overworld_38
+    21300078: Trainer Overworld_39
+    21300080: Trainer Overworld_40
+    21300082: Trainer Overworld_41
+    21300084: Trainer Overworld_42
+    21300086: Trainer Overworld_43
+    21300088: Trainer Overworld_44
+    21300090: Trainer Overworld_45
+    21300092: Trainer Overworld_46
+    21300094: Trainer Overworld_47
+    21300096: Trainer Overworld_48
+    21300098: Trainer Overworld_49
+    21300100: Trainer Overworld_50
+    21300102: Trainer Overworld_51
+    21300104: Trainer Overworld_52
+    21300106: Trainer Overworld_53
+    21300108: Trainer Overworld_54
+    21300110: Trainer Overworld_55
+    21300112: Trainer Overworld_56
+    21300114: Trainer Overworld_57
+    21300116: Trainer Overworld_58
+    21300118: Trainer Overworld_59
+    21300120: Trainer Overworld_60
+    21300122: Trainer Overworld_61
+    21300124: Trainer Overworld_62
+    21300126: Trainer Overworld_63
+    21300128: Trainer Overworld_64
+    21300130: Trainer Overworld_65
+    21300132: Trainer Overworld_66
+    21300134: Trainer Overworld_67
+    21300136: Trainer Overworld_68
+    21300138: Trainer Overworld_69
+    21300140: Trainer Overworld_70
+    21300142: Trainer Overworld_71
+    21300144: Trainer Overworld_72
+    21300146: Trainer Overworld_73
+    21300148: Trainer Overworld_74
+    21300150: Trainer Overworld_75
+    21300152: Trainer Overworld_76
+    21300154: Trainer Overworld_77
+    21300156: Trainer Overworld_78
+    21300158: Trainer Overworld_79
+    21300160: Trainer Overworld_80
+    21300162: Trainer Overworld_81
+    21300164: Trainer Overworld_82
+    21300166: Trainer Overworld_83
+    21300168: Trainer Overworld_84
+    21300170: Trainer Overworld_85
+    21300172: Trainer Overworld_86
+    21300174: Trainer Overworld_87
+    21300176: Trainer Overworld_88
+    21300178: Trainer Overworld_89
+    21300180: Trainer Overworld_90
+    21300182: Trainer Overworld_91
+    21300184: Trainer Overworld_92
+    21300186: Trainer Overworld_93
+    21300188: Trainer Overworld_94
+    21300190: Trainer Overworld_95
+    21300192: Trainer Overworld_96
+    21300194: Trainer Overworld_97
+    21300196: Trainer Overworld_98
+    21300198: Trainer Overworld_99
+    21300200: Trainer Overworld_100
+    21300202: Trainer Overworld_101
+    21300204: Trainer Overworld_102
+    21300206: Trainer Overworld_103
+    21300208: Trainer Overworld_104
+    21300210: Trainer Overworld_105
+    21300212: Trainer Overworld_106
+    21300214: Trainer Overworld_107
+    21300216: Trainer Overworld_108
+    21300218: Trainer Overworld_109
+    21300220: Trainer Overworld_110
+    21300222: Trainer Overworld_111
+    21300224: Trainer Overworld_112
+    21300226: Trainer Overworld_113
+    21300228: Trainer Overworld_114
+    21300230: Trainer Overworld_115
+    21300232: Trainer Overworld_116
+    21300234: Trainer Overworld_117
+    21300236: Trainer Overworld_118
+    21300238: Trainer Overworld_119
+    21300240: Trainer Overworld_120
+    21300242: Trainer Overworld_121
+    21300244: Trainer Overworld_122
+    21300246: Trainer Overworld_123
+    21300248: Trainer Overworld_124
+    21300250: Trainer Overworld_125
+    21300252: Trainer Overworld_126
+    21300254: Trainer Overworld_127
+    21300256: Trainer Overworld_128
+    21300258: Trainer Overworld_129
+    21300260: Trainer Overworld_130
+    21300262: Trainer Overworld_131
+    21300264: Trainer Overworld_132
+    21300266: Trainer Overworld_133
+    21300268: Trainer Overworld_134
+    21300270: Trainer Overworld_135
+    21300272: Trainer Overworld_136
+    21300274: Trainer Overworld_137
+    21300276: Trainer Overworld_138
+    21300278: Trainer Overworld_139
+    21300280: Trainer Overworld_140
+    21300282: Trainer Overworld_141
+    21300284: Trainer Overworld_142
+    21300286: Trainer Overworld_143
+    21300288: Trainer Overworld_144
+    21300290: Trainer Overworld_145
+    21300292: Trainer Overworld_146
+    21300294: Trainer Overworld_147
+    21300296: Trainer Overworld_148
+    21300298: Trainer Overworld_149
+    21300300: Trainer Overworld_150
+    21300302: Trainer Overworld_151
+    21300304: Trainer Overworld_152
+    21300306: Trainer Overworld_153
+    21300308: Trainer Overworld_154
+    21300310: Trainer Overworld_155
+    21300312: Trainer Overworld_156
+    21300314: Trainer Overworld_157
+    21300316: Trainer Overworld_158
+    21300318: Trainer Overworld_159
+    21300320: Trainer Overworld_160
+    21300322: Trainer Overworld_161
+    21300324: Trainer Overworld_162
+    21300326: Trainer Overworld_163
+    21300328: Trainer Overworld_164
+    21300330: Trainer Overworld_165
+    21300332: Trainer Overworld_166
+    21300334: Trainer Overworld_167
+    21300336: Trainer Overworld_168
+    21300338: Trainer Overworld_169
+    21300340: Trainer Overworld_170
+    21300342: Trainer Overworld_171
+    21300344: Trainer Overworld_172
+    21300346: Trainer Overworld_173
+    21300348: Trainer Overworld_174
+    21300350: Trainer Overworld_175
+    21300352: Trainer Overworld_176
+    21300354: Trainer Overworld_177
+    21300356: Trainer Overworld_178
+    21300358: Trainer Overworld_179
+    21300360: Trainer Overworld_180
+    21300362: Trainer Overworld_181
+    21300364: Trainer Overworld_182
+    21300366: Trainer Overworld_183
+    21300368: Trainer Overworld_184
+    21300370: Trainer Overworld_185
+    21300372: Trainer Overworld_186
+    21300374: Trainer Overworld_187
+    21300376: Trainer Overworld_188
+    21300378: Trainer Overworld_189
+    21300380: Trainer Overworld_190
+    21300382: Trainer Overworld_191
+    21300384: Trainer Overworld_192
+    21300386: Trainer Overworld_193
+    21300388: Trainer Overworld_194
+    21300390: Trainer Overworld_195
+    21300392: Trainer Overworld_196
+    21300394: Trainer Overworld_197
+    21300396: Trainer Overworld_198
+    21300398: Trainer Overworld_199
+    21300400: Trainer Overworld_200
+    21300402: Trainer Overworld_201
+    21300404: Trainer Overworld_202
+    21300406: Trainer Overworld_203
+    21300408: Trainer Overworld_204
+    21300410: Trainer Overworld_205
+    21300412: Trainer Overworld_206
+    21300414: Trainer Overworld_207
+    21300416: Trainer Overworld_208
+    21300418: Trainer Overworld_209
+    21300420: Trainer Overworld_210
+    21300422: Trainer Overworld_211
+    21300424: Trainer Overworld_212
+    21300426: Trainer Overworld_213
+    21300428: Trainer Overworld_214
+    21300430: Trainer Overworld_215
+    21300432: Trainer Overworld_216
+    21300434: Trainer Overworld_217
+    21300436: Trainer Overworld_218
+    21300438: Trainer Overworld_219
+    21300440: Trainer Overworld_220
+    21300442: Trainer Overworld_221
+    21300444: Trainer Overworld_222
+    21300446: Trainer Overworld_223
+    21300448: Trainer Overworld_224
+    21300450: Trainer Overworld_225
+    21300452: Trainer Overworld_226
+    21300454: Trainer Overworld_227
+    21300456: Trainer Overworld_228
+    21300458: Trainer Overworld_229
+    21300460: Trainer Overworld_230
+    21300462: Trainer Overworld_231
+    21300464: Trainer Overworld_232
+    21300466: Trainer Overworld_233
+    21300468: Trainer Overworld_234
+    21300470: Trainer Overworld_235
+    21300472: Trainer Overworld_236
+    21300474: Trainer Overworld_237
+    21300476: Trainer Overworld_238
+    21300478: Trainer Overworld_239
+    21300480: Trainer Overworld_240
+    21300482: Trainer Overworld_241
+    21300484: Trainer Overworld_242
+    21300486: Trainer Overworld_243
+    21300488: Trainer Overworld_244
+    21300490: Trainer Overworld_245
+    21300492: Trainer Overworld_246
+    21300494: Trainer Overworld_247
+    21300496: Trainer Overworld_248
+    21300498: Trainer Overworld_249
+    21300500: Trainer Overworld_250
+    21300502: Trainer Overworld_251
+    21300504: Trainer Overworld_252
+    21300506: Trainer Overworld_253
+    21300508: Trainer Overworld_254
+    21300510: Trainer Overworld_255
+    21300512: Trainer Overworld_256
+    21300514: Trainer Overworld_257
+    21300516: Trainer Overworld_258
+    21300518: Trainer Overworld_259
+    21300520: Trainer Overworld_260
+    21300522: Trainer Overworld_261
+    21300524: Trainer Overworld_262
+    21300526: Trainer Overworld_263
+    21300528: Trainer Overworld_264
+    21300530: Trainer Overworld_265
+    21300532: Trainer Overworld_266
+    21300534: Trainer Overworld_267
+    21300536: Trainer Overworld_268
+    21300538: Trainer Overworld_269
+    21300540: Trainer Overworld_270
+    21300542: Trainer Overworld_271
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Trainer Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_27
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_30
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_55
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_56
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_58
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_59
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_60
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_61
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_62
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_63
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_66
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_70
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_71
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_73
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_74
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_75
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_76
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_78
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_79
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_84
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_88
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_90
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_91
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_92
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_93
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_94
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_96
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_98
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_99
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_100
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_101
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_102
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_103
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_104
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_105
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_106
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_107
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_108
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_109
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_110
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_111
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_112
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_114
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_116
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_117
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_118
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_119
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_120
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_121
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_122
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_123
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_124
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_125
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_126
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_127
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_128
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_129
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_130
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_131
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_132
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_133
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_134
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_135
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_136
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_137
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_138
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_140
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_141
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_142
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_143
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_144
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_145
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_147
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_148
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_149
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_150
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_151
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_152
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_153
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_154
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_155
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_156
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_157
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_158
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_159
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_160
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_162
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_163
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_164
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_165
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_166
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_167
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_168
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_169
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_170
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_171
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_172
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_173
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_174
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_175
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_176
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_177
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_178
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_179
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_180
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_181
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_182
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_183
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_184
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_185
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_186
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_187
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_188
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_189
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_190
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_191
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_192
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_193
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_194
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_195
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_196
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_197
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_198
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_199
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_200
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_201
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_202
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_203
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_204
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_205
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_206
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_207
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_208
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_209
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_210
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_211
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_212
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_213
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_214
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_215
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_216
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_217
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_218
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_219
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_220
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_221
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_222
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_223
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_224
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_225
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_226
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_227
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_228
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_229
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_230
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_231
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_232
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_233
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_234
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_235
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_236
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_237
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_238
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_239
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_240
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_241
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_242
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_243
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_244
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_245
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_246
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_247
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_248
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_249
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_250
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_251
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_252
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_253
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_254
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_255
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_256
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_257
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_258
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_259
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_260
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_261
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_262
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_263
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_264
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_265
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_266
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_267
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_268
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_269
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_270
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trainer Overworld_271
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

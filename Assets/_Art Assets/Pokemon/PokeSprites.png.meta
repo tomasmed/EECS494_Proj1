@@ -1,0 +1,1739 @@
+fileFormatVersion: 2
+guid: ba6ef1745e489a749b91475edad72a59
+timeCreated: 1442952376
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PokeSprites_0
+    21300002: PokeSprites_1
+    21300004: PokeSprites_2
+    21300006: PokeSprites_3
+    21300008: PokeSprites_4
+    21300010: PokeSprites_5
+    21300012: PokeSprites_6
+    21300014: PokeSprites_7
+    21300016: PokeSprites_8
+    21300018: PokeSprites_9
+    21300020: PokeSprites_10
+    21300022: PokeSprites_11
+    21300024: PokeSprites_12
+    21300026: PokeSprites_13
+    21300028: PokeSprites_14
+    21300030: PokeSprites_15
+    21300032: PokeSprites_16
+    21300034: PokeSprites_17
+    21300036: PokeSprites_18
+    21300038: PokeSprites_19
+    21300040: PokeSprites_20
+    21300042: PokeSprites_21
+    21300044: PokeSprites_22
+    21300046: PokeSprites_23
+    21300048: PokeSprites_24
+    21300050: PokeSprites_25
+    21300052: PokeSprites_26
+    21300054: PokeSprites_27
+    21300056: PokeSprites_28
+    21300058: PokeSprites_29
+    21300060: PokeSprites_30
+    21300062: PokeSprites_31
+    21300064: PokeSprites_32
+    21300066: PokeSprites_33
+    21300068: PokeSprites_34
+    21300070: PokeSprites_35
+    21300072: PokeSprites_36
+    21300074: PokeSprites_37
+    21300076: PokeSprites_38
+    21300078: PokeSprites_39
+    21300080: PokeSprites_40
+    21300082: PokeSprites_41
+    21300084: PokeSprites_42
+    21300086: PokeSprites_43
+    21300088: PokeSprites_44
+    21300090: PokeSprites_45
+    21300092: PokeSprites_46
+    21300094: PokeSprites_47
+    21300096: PokeSprites_48
+    21300098: PokeSprites_49
+    21300100: PokeSprites_50
+    21300102: PokeSprites_51
+    21300104: PokeSprites_52
+    21300106: PokeSprites_53
+    21300108: PokeSprites_54
+    21300110: PokeSprites_55
+    21300112: PokeSprites_56
+    21300114: PokeSprites_57
+    21300116: PokeSprites_58
+    21300118: PokeSprites_59
+    21300120: PokeSprites_60
+    21300122: PokeSprites_61
+    21300124: PokeSprites_62
+    21300126: PokeSprites_63
+    21300128: PokeSprites_64
+    21300130: PokeSprites_65
+    21300132: PokeSprites_66
+    21300134: PokeSprites_67
+    21300136: PokeSprites_68
+    21300138: PokeSprites_69
+    21300140: PokeSprites_70
+    21300142: PokeSprites_71
+    21300144: PokeSprites_72
+    21300146: PokeSprites_73
+    21300148: PokeSprites_74
+    21300150: PokeSprites_75
+    21300152: PokeSprites_76
+    21300154: PokeSprites_77
+    21300156: PokeSprites_78
+    21300158: PokeSprites_79
+    21300160: PokeSprites_80
+    21300162: PokeSprites_81
+    21300164: PokeSprites_82
+    21300166: PokeSprites_83
+    21300168: PokeSprites_84
+    21300170: PokeSprites_85
+    21300172: PokeSprites_86
+    21300174: PokeSprites_87
+    21300176: PokeSprites_88
+    21300178: PokeSprites_89
+    21300180: PokeSprites_90
+    21300182: PokeSprites_91
+    21300184: PokeSprites_92
+    21300186: PokeSprites_93
+    21300188: PokeSprites_94
+    21300190: PokeSprites_95
+    21300192: PokeSprites_96
+    21300194: PokeSprites_97
+    21300196: PokeSprites_98
+    21300198: PokeSprites_99
+    21300200: PokeSprites_100
+    21300202: PokeSprites_101
+    21300204: PokeSprites_102
+    21300206: PokeSprites_103
+    21300208: PokeSprites_104
+    21300210: PokeSprites_105
+    21300212: PokeSprites_106
+    21300214: PokeSprites_107
+    21300216: PokeSprites_108
+    21300218: PokeSprites_109
+    21300220: PokeSprites_110
+    21300222: PokeSprites_111
+    21300224: PokeSprites_112
+    21300226: PokeSprites_113
+    21300228: PokeSprites_114
+    21300230: PokeSprites_115
+    21300232: PokeSprites_116
+    21300234: PokeSprites_117
+    21300236: PokeSprites_118
+    21300238: PokeSprites_119
+    21300240: PokeSprites_120
+    21300242: PokeSprites_121
+    21300244: PokeSprites_122
+    21300246: PokeSprites_123
+    21300248: PokeSprites_124
+    21300250: PokeSprites_125
+    21300252: PokeSprites_126
+    21300254: PokeSprites_127
+    21300256: PokeSprites_128
+    21300258: PokeSprites_129
+    21300260: PokeSprites_130
+    21300262: PokeSprites_131
+    21300264: PokeSprites_132
+    21300266: PokeSprites_133
+    21300268: PokeSprites_134
+    21300270: PokeSprites_135
+    21300272: PokeSprites_136
+    21300274: PokeSprites_137
+    21300276: PokeSprites_138
+    21300278: PokeSprites_139
+    21300280: PokeSprites_140
+    21300282: PokeSprites_141
+    21300284: PokeSprites_142
+    21300286: PokeSprites_143
+    21300288: PokeSprites_144
+    21300290: PokeSprites_145
+    21300292: PokeSprites_146
+    21300294: PokeSprites_147
+    21300296: PokeSprites_148
+    21300298: PokeSprites_149
+    21300300: PokeSprites_150
+    21300302: PokeSprites_151
+    21300304: PokeSprites_152
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 40
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PokeSprites_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 614
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 610
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 602
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 611
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 607
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 602
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 614
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 609
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_8
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 603
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 618
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 614
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_11
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 603
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_12
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 615
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 610
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 602
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 555
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 546
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_17
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 543
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 555
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 550
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_21
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 543
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_22
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 555
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_23
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 542
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_24
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 550
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 553
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_26
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 543
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_27
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 554
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_28
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 547
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_29
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 556
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_30
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 548
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 485
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 495
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 488
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_34
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 482
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_35
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 495
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 486
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_37
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 492
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_38
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 482
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_39
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 495
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_40
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 486
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_41
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 491
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_42
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 482
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_43
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 491
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_44
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 488
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_45
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 483
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 434
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 423
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_48
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 432
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 423
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 439
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_51
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 427
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_52
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 434
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_53
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 422
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_54
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 430
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_55
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 422
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_56
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 430
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_57
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 422
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_58
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 432
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_59
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 423
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_60
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 436
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_61
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 370
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_62
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 365
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_63
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 370
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_64
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 366
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 362
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_66
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 370
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 363
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_68
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 362
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_69
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 371
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_70
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 367
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_71
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 362
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_72
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 373
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_73
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 366
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_74
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 379
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_75
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 366
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_76
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 308
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_77
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 306
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_78
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 302
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_79
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 311
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_80
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 303
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 317
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_82
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 307
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_83
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 306
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_84
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 310
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_85
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 302
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_86
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 307
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_87
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 306
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_88
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 313
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_89
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 302
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_90
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 315
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_91
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 243
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_92
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 243
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_93
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 247
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_94
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 246
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_95
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 244
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_96
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 246
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_97
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 242
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_98
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 252
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_99
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 246
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_100
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 258
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_101
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 253
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_102
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 245
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_103
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 243
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_104
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 251
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_105
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 246
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_106
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 182
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_107
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 186
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_108
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 184
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_109
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 187
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_110
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 225
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_111
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 184
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_112
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 184
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_113
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 183
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_114
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 186
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_115
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 187
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_116
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 183
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_117
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 194
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_118
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 186
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_119
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 188
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_120
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 182
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_121
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 189
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_122
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 126
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_123
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 126
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_124
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 124
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_125
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 126
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_126
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 126
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_127
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 126
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_128
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 123
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_129
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 122
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_130
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 126
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_131
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 122
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_132
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 123
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_133
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 138
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_134
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 134
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_135
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 127
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_136
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 126
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_137
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 66
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_138
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_139
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 75
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_140
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 66
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_141
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 78
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_142
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 66
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_143
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 62
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_144
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 68
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_145
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 62
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_146
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 63
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_147
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 62
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_148
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 73
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_149
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 66
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_150
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 62
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_151
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 62
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PokeSprites_152
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: pokesprites
+  assetBundleVariant: 
