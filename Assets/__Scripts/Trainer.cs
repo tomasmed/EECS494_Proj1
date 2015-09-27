@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Trainer : MonoBehaviour {
-    public string speech;
+	public float stamina;
+	public string speech;
     public bool trainer;
     public float moveSpeed;
 
@@ -18,6 +19,9 @@ public class Trainer : MonoBehaviour {
 
     public SpriteRenderer sprend;
 
+	private bool doneFighting = false;
+	private int counter = 0;
+	private bool moving = false;
 
     public List<Pokemon> trainersPoke;
 
@@ -34,8 +38,10 @@ public class Trainer : MonoBehaviour {
         Color noAlpha = GameObject.Find("DialogBackground").GetComponent<GUITexture>().color;
         noAlpha.a = 255;
         GameObject.Find("DialogBackground").GetComponent<GUITexture>().color = noAlpha;
-        DialogScript.S.ShowMessage(speech);
-        MainScript.S.inTrainerDialog = true;
+		MainScript.S.inTrainerDialog = true;
+		//MainScript.S.inDialog = true;
+		DialogScript.S.ShowMessage(speech);
+        
     }
 
     public void FacePlayer(Direction playerDir)
@@ -68,46 +74,52 @@ public class Trainer : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(GetRay(), out hitInfo, 3f, GetLayerMask(new string[] { "Player" })) && !MainScript.S.inBattle)
-        {
-            FacePlayer(Player.S.direction);
-            Vector3 npcvec;
-            switch (Player.S.direction)
-            {
-                case Direction.right:
-                    npcvec = Vector3.left;
-                    direction = NPCDirection.left;
-                    break;
-                case Direction.left:
-                    npcvec = Vector3.right;
-                    direction = NPCDirection.right;
-                    break;
-                case Direction.up:
-                    npcvec = Vector3.down;
-                    direction = NPCDirection.down;
-                    break;
-                case Direction.down:
-                    npcvec = Vector3.up;
-                    direction = NPCDirection.up;
-                    break;
-                default:
-                    npcvec = Vector3.zero;
-                    break;
-            }
-            targetPos = pos + npcvec;
-            pos += (targetPos - pos).normalized * moveSpeed * Time.fixedDeltaTime;
-            PlayDialog();
+		if (!doneFighting)
+		{
+			Vector3 npcvec = Vector3.zero;
+			if (Physics.Raycast (GetRay (), out hitInfo, stamina, GetLayerMask (new string[] { "Player" })) && !MainScript.S.inBattle && !moving) {
+				moving = true;
+				PlayDialog ();
+				//FacePlayer (Player.S.direction);
+				/*
+				switch (Player.S.direction) {
+				case Direction.right:
+					npcvec = Vector3.left;
+					direction = NPCDirection.left;
+					break;
+				case Direction.left:
+					npcvec = Vector3.right;
+					direction = NPCDirection.right;
+					break;
+				case Direction.up:
+					npcvec = Vector3.down;
+					direction = NPCDirection.down;
+					break;
+				case Direction.down:
+					npcvec = Vector3.up;
+					direction = NPCDirection.up;
+					break;
+				default:
+					npcvec = Vector3.zero;
+					break;
+				}*/
+			}
+			if (moving) {
+				if (! Physics.Raycast (GetRay (), out hitInfo, 1f, GetLayerMask (new string[] { "Player" }))) {
+					//Move 2 times down
 
-            MainScript.S.inBattle = true;
-            StartBattle.S.SetArena(trainersPoke, "Trainer wants to battle!");
-
-        }
-        /*if (trainer && Main.S.inDialog && Input.GetKeyDown(KeyCode.X))
-        {
-            Main.S.inBattle = true;
-            Dialog.S.HideDialogBox();
-        }*/
-
+					//counter++;
+					targetPos = GameObject.Find ("Red").GetComponent<Transform> ().position;
+					pos += (targetPos - pos).normalized * moveSpeed * Time.fixedDeltaTime;
+					Debug.Log ("trying to move to: y=" + targetPos.y);
+				} else if (!MainScript.S.inDialog) {
+					moving = false;
+					MainScript.S.inBattle = true;
+					doneFighting =true;
+					StartBattle.S.SetArena (trainersPoke, "Trainer wants to battle!");
+				}
+			}
+		}
     }
 
     int GetLayerMask(string[] layerNames)

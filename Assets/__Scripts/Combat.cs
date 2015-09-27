@@ -24,13 +24,17 @@ public class Combat : MonoBehaviour {
 		GameObject.Find ("Player's_GUI").GetComponent<GUITexture>().texture = playersPoke.pokeTexture.texture;
 		GameObject.Find ("Oponent's_GUI").GetComponent<GUITexture>().texture = Oponent.pokeTexture.texture;
 
+		GameObject.Find ("Player's_GUI").GetComponent<GUIText>().text = ("Hp : " + playersPoke.hp);
+		GameObject.Find ("Oponent's_GUI").GetComponent<GUIText>().text = ("Hp : " + Oponent.hp);
+
         Debug.Log(playersPoke.name + " has " + playersPoke.hp + " hp VS " + Oponent.pokeName + "with " + Oponent.hp);
         bool alive = true;
+
         while (alive)
 		{
             if (playersPoke.hp < 1)
             {
-                Debug.Log(playersPoke.pokeName + "Fainted");
+				ShowText(playersPoke.pokeName + "Fainted");
                 alive = false;
                 
                 StartBattle.S.battleIsOver = true;
@@ -39,12 +43,12 @@ public class Combat : MonoBehaviour {
                 
             else if ( Oponent.hp < 1)
             {
-                Debug.Log(Oponent.pokeName + "Fainted");
+				ShowText(Oponent.pokeName + "Fainted");
                 playersPoke.xp += 25 * Oponent.lvl;
-                Debug.Log(playersPoke.pokeName + " gained " + 25 * Oponent.lvl +  " xp");
+				ShowText(playersPoke.pokeName + " gained " + 25 * Oponent.lvl +  " xp");
                 if (playersPoke.xp >99)
                 {
-                    Debug.Log(playersPoke.pokeName + " lvled up!");
+					ShowText(playersPoke.pokeName + " lvled up!");
                     playersPoke.xp = playersPoke.xp - 99;
                     playersPoke.lvl++;
                 }
@@ -58,15 +62,15 @@ public class Combat : MonoBehaviour {
             GameObject.Find ("Player's_GUI").GetComponent<GUIText>().text = ("Hp : " + playersPoke.hp);
 			GameObject.Find ("Oponent's_GUI").GetComponent<GUIText>().text = ("Hp : " + Oponent.hp);
 
-			if(playersTurn)
+			if(playersTurn && !MainScript.S.inDialog)
 			{
 				Debug.Log ("Players Turn");
 				PlayerTurn(playersPoke , Oponent);
 				//playersTurn = false;
 			}
-			//yield return new WaitForSeconds(5);
+			yield return new WaitForSeconds(0.25f);
             yield return StartCoroutine(WaitForKeyDown(KeyCode.A));
-            if (!playersTurn)
+			if (!playersTurn&& !MainScript.S.inDialog)
 			{
 				Debug.Log ("Oponent's Turn");
 				OponentTurn(playersPoke , Oponent);
@@ -77,11 +81,7 @@ public class Combat : MonoBehaviour {
 
 		}
         Debug.Log("Battle is Over");
-        StartBattle.S.EndBattle();
-        // alive = true;
-        //yield return null;
-        //BATTLE IS DONE
-
+		StartBattle.S.EndBattle ();
     }
 
     IEnumerator WaitForKeyDown(KeyCode keyCode)
@@ -100,9 +100,22 @@ public class Combat : MonoBehaviour {
 	{
 		playersTurn = true;
 		Debug.Log ("Oponent always attacks!");
-		Debug.Log (oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
+		ShowText(oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
 		Damage (playersPoke, oponentsPoke.move1);
 	}
+
+
+	public void ShowText(string message)
+	{
+		DialogScript.S.gameObject.SetActive(true);
+		Color noAlpha = GameObject.Find("DialogBackground").GetComponent<GUITexture>().color;
+		noAlpha.a = 255;
+		GameObject.Find("DialogBackground").GetComponent<GUITexture>().color = noAlpha;
+		DialogScript.S.ShowMessage (message);
+	}
+
+
+
 
 	public void Damage(Pokemon objective, Move move)
 	{
@@ -111,12 +124,12 @@ public class Combat : MonoBehaviour {
         int mult = 1;
         if (willhit - move.accuracy > 0)
         {
-            Debug.Log("Attack missed!");
+			ShowText("Attack missed!");
         }
         else
         {
             mult = SuperEffective(objective.type, move.type);
-            Debug.Log(objective.pokeName + " Took " + move.damage + " from " + move.moveName);
+			ShowText(objective.pokeName + " Took " + move.damage + " from " + move.moveName);
             objective.hp -= move.damage*mult;
         }
     }
@@ -124,7 +137,7 @@ public class Combat : MonoBehaviour {
     {
         if (target == "Normal" && move == "Fight")
         {
-            Debug.Log("SUPER EFECTIVE");
+			ShowText("SUPER EFECTIVE");
             return 2;
         }
         else return 1;

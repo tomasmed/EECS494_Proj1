@@ -42,43 +42,52 @@ public class BattleMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Update () {
-
-		if (Input.GetKeyDown(KeyCode.A))
+		if (MainScript.S.inDialog)
 		{
-			switch (activeOption)
+			Color noAlpha = gameObject.GetComponent<GUITexture>().color;
+			noAlpha.a = 0;
+			gameObject.GetComponent<GUITexture>().color  = noAlpha;
+		}
+		else 
+		{
+			if (Input.GetKeyDown(KeyCode.A) && !MainScript.S.inDialog)
 			{
-			case 0:
-				ATKMenu.S.gameObject.SetActive(true);
-				gameObject.SetActive(false);
-				choiceSelected = true;
-				break;
-			case 1:
-				choiceSelected = true;
-				break;
-			case 2:
-				choiceSelected = true;
-				break;
-			case 3:
-				choiceSelected = true;
-				break;
+				gameObject.SetActive(true);
+				switch (activeOption)
+				{
+				case 0:
+					ATKMenu.S.gameObject.SetActive(true);
+					gameObject.SetActive(false);
+					choiceSelected = true;
+					break;
+				case 1:
+					choiceSelected = true;
+					break;
+				case 2:
+					choiceSelected = true;
+					break;
+				case 3:
+					choiceSelected = true;
+					break;
+				}
 			}
-		}
-		//playerturn = true;
-		else if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
-			MoveMenuDown();
-		}
-		else if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			MoveMenuDown();
-		}
-		if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
-			MoveMenuRight();
-		}
-		else if (Input.GetKeyDown(KeyCode.RightArrow))
-		{
-			MoveMenuRight();
+			//playerturn = true;
+			else if (Input.GetKeyDown(KeyCode.DownArrow)&& !MainScript.S.inDialog)
+			{
+				MoveMenuDown();
+			}
+			else if (Input.GetKeyDown(KeyCode.UpArrow)&& !MainScript.S.inDialog)
+			{
+				MoveMenuDown();
+			}
+			if (Input.GetKeyDown(KeyCode.LeftArrow)&& !MainScript.S.inDialog)
+			{
+				MoveMenuRight();
+			}
+			else if (Input.GetKeyDown(KeyCode.RightArrow)&& !MainScript.S.inDialog)
+			{
+				MoveMenuRight();
+			}
 		}
 		//else choiceSelected = false;
 		//yield return null;

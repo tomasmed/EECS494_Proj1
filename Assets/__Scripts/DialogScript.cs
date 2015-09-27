@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
+
 
 public class DialogScript : MonoBehaviour {
 
     public static DialogScript S;
+	private Text text_gameobj;
+	private string temp_mess = "";
+	private bool message_done = false;
 
     void Awake()
     {
@@ -18,22 +23,61 @@ public class DialogScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if (MainScript.S.inDialog && Input.GetKeyDown(KeyCode.S))
+
+	    if ((MainScript.S.inDialog && Input.GetKeyDown(KeyCode.S)) || (message_done && Input.GetKeyDown(KeyCode.A)))
         {
+			print ("exiting");
             HideDialogBox();
         }
 	}
 
 
-    public void ShowMessage(string message)
+	private List<string> DistributeMessage(string speech)
+	{
+		List <string> finalmess  = new List<string>{};
+		string temp = "";
+		for (int i  = 0; i< speech.Length; i++) 
+		{
+			temp += speech[i];
+			if ( i % 25 == 0 && (i != 0 ))
+			{	
+				finalmess.Add(temp);
+				temp = "";
+			}
+		}
+		return finalmess;
+	}
+
+
+    public void ShowMessage(string speech)
     {
-        print("Printing: " + message);
+		message_done = false;
         MainScript.S.inDialog = true;
-        GameObject dialogBox = transform.Find("Text").gameObject;
-        Text goText = dialogBox.GetComponent<Text>();
-        goText.text = message;
+		List<string> message = DistributeMessage (speech);
+		GameObject dialogBox = transform.Find("Text").gameObject;
+		text_gameobj = dialogBox.GetComponent<Text>();
+		StartCoroutine(DialogS(message));
     }
 
+	public IEnumerator DialogS(List<string> message)
+	{
+		for (int i = 0; i <message.Count ; i++)//string mess in message)
+		{
+			string mess = message[i];
+			yield return new WaitForSeconds(0.025f);
+			temp_mess = mess;
+			text_gameobj.text = temp_mess;
+			if(i == message.Count -1 ) message_done = true;
+			yield return StartCoroutine(WaitForKeyDown(KeyCode.A));
+		}
+	}
+
+
+	IEnumerator WaitForKeyDown(KeyCode keyCode)
+	{
+		while (!Input.GetKeyDown(keyCode))
+			yield return null;
+	}
 
     void HideDialogBox()
     {

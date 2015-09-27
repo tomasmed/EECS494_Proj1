@@ -43,57 +43,54 @@ public class ATKMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.S))
-		{
-			gameObject.SetActive(false);
-			print("Returning to main Battle menu");
-			BattleMenu.S.gameObject.SetActive(true);
-			//MainScript.S.paused = false;
-		}
 
-		if (Input.GetKeyDown(KeyCode.A))
+		if (MainScript.S.inDialog) {
+			Color noAlpha = gameObject.GetComponent<GUITexture> ().color;
+			noAlpha.a = 0;
+			gameObject.GetComponent<GUITexture> ().color = noAlpha;
+		} 
+		else 
 		{
-			switch (activeATK)
-			{
-			case 0:
-				//print("Selected : Move1");
-                 dmgMove = Party.S.activePokemonInParty.move1;
-                 BattleMenu.S.SelectOption(true, Combat.S.oponentsPoke,false);
-                 break;
-			case 1:
-				//print("Selected : Move2");
-                dmgMove = Party.S.activePokemonInParty.move2;
-                BattleMenu.S.SelectOption(true, Combat.S.oponentsPoke, false);
-                break;
-			case 2:
-				//print("Selected : move3");
-                dmgMove = Party.S.activePokemonInParty.move3;
-                BattleMenu.S.SelectOption(true, Combat.S.oponentsPoke, false);
-                break;
-			case 3:
-				//print("Selected : Move4");
-                dmgMove = Party.S.activePokemonInParty.move4;
-                BattleMenu.S.SelectOption(true, Combat.S.oponentsPoke, false);
-                break;
+			if (Input.GetKeyDown (KeyCode.S)) {
+				gameObject.SetActive (false);
+				print ("Returning to main Battle menu");
+				BattleMenu.S.gameObject.SetActive (true);
+				//MainScript.S.paused = false;
+			} 
+			if (Input.GetKeyDown (KeyCode.A) && !MainScript.S.inDialog) {
+				switch (activeATK) {
+				case 0:
+					//print("Selected : Move1");
+					dmgMove = Party.S.activePokemonInParty.move1;
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					break;
+				case 1:
+					//print("Selected : Move2");
+					dmgMove = Party.S.activePokemonInParty.move2;
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					break;
+				case 2:
+					//print("Selected : move3");
+					dmgMove = Party.S.activePokemonInParty.move3;
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					break;
+				case 3:
+					//print("Selected : Move4");
+					dmgMove = Party.S.activePokemonInParty.move4;
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					break;
+				}
+			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				MoveMenuDown ();
+			} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				MoveMenuDown ();
+			}
+			if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+				MoveMenuRight ();
+			} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+				MoveMenuRight ();
 			}
 		}
-		else if (Input.GetKeyDown(KeyCode.DownArrow))
-		{
-			MoveMenuDown();
-		}
-		else if (Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			MoveMenuDown();
-		}
-		if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
-			MoveMenuRight();
-		}
-		else if (Input.GetKeyDown(KeyCode.RightArrow))
-		{
-			MoveMenuRight();
-		}
-
 
 
 	}

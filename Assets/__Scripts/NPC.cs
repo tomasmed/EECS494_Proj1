@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public enum NPCDirection
 {
@@ -40,22 +41,23 @@ public class NPC : MonoBehaviour {
 	}
 
 
+
+
+
     public void PlayDialog()
     {
-        print(speech);
+        //print(speech);
         DialogScript.S.gameObject.SetActive(true);
         Color noAlpha = GameObject.Find("DialogBackground").GetComponent<GUITexture>().color;
         noAlpha.a = 255;
         GameObject.Find("DialogBackground").GetComponent<GUITexture>().color = noAlpha;
 
-
-        //Here is where we ge the next part of the speech
+		//Here is where we ge the next part of the speech
         DialogScript.S.ShowMessage(speech);
-        if (isTrainer)
+		if (isTrainer)
         {
             //Do the stuff id its a trainer
         }
-
     }
 
     public void FacePlayer(Direction playerDir)
