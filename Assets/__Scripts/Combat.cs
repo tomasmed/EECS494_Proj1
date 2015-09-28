@@ -12,10 +12,6 @@ public class Combat : MonoBehaviour {
 	}
 	public IEnumerator Fight(Pokemon Oponent)
 	{
-		/*Color ColorOp = gameObject.GetComponentInChildren<GUITexture>().color;
-		ColorOp.a = 255;
-		gameObject.GetComponentInChildren<GUIText>().color = ColorOp;
-		*/
 		Debug.Log("Fetching fight images");
 
         oponentsPoke = Oponent;
@@ -61,8 +57,12 @@ public class Combat : MonoBehaviour {
 
             GameObject.Find ("Player's_GUI").GetComponent<GUIText>().text = ("Hp : " + playersPoke.hp);
 			GameObject.Find ("Oponent's_GUI").GetComponent<GUIText>().text = ("Hp : " + Oponent.hp);
+            Color black_col = Color.black; 
+            GameObject.Find("Oponent's_GUI").GetComponent<GUIText>().color = black_col;
 
-			if(playersTurn && !MainScript.S.inDialog)
+
+
+            if (playersTurn && !MainScript.S.inDialog)
 			{
 				Debug.Log ("Players Turn");
 				PlayerTurn(playersPoke , Oponent);

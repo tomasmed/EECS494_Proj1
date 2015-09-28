@@ -34,19 +34,37 @@ public class DialogScript : MonoBehaviour {
 
 	private List<string> DistributeMessage(string speech)
 	{
+        bool ready_forcut = false;
 		List <string> finalmess  = new List<string>{};
 		string temp = "";
 		for (int i  = 0; i< speech.Length; i++) 
 		{
 			temp += speech[i];
-			if ( i % 25 == 0 && (i != 0 ))
-			{	
-				finalmess.Add(temp);
-				temp = "";
-			}
+
+            if ((i % 30 == 0 && (i != 0)) || i == speech.Length - 1)
+            {
+                ready_forcut = true;
+            }
+            if (ready_forcut)
+            {
+                if (speech[i] == (' ') || i == speech.Length - 1)
+                {
+                    finalmess.Add(temp);
+                    temp = "";
+                    ready_forcut = false;
+                }
+            }
+            
 		}
-		return finalmess;
-	}
+		
+
+        foreach(string message in finalmess)
+        {
+            Debug.Log(message);
+        }
+
+        return finalmess;
+    }
 
 
     public void ShowMessage(string speech)
@@ -68,9 +86,11 @@ public class DialogScript : MonoBehaviour {
 			temp_mess = mess;
 			text_gameobj.text = temp_mess;
 			if(i == message.Count -1 ) message_done = true;
-			yield return StartCoroutine(WaitForKeyDown(KeyCode.A));
-		}
-	}
+            yield return StartCoroutine(WaitForKeyDown(KeyCode.A));
+            yield return new WaitForSeconds(0.025f);
+
+        }
+    }
 
 
 	IEnumerator WaitForKeyDown(KeyCode keyCode)

@@ -13,6 +13,19 @@ public class AreaPokemon : MonoBehaviour {
 		S = this;
 	}
 
+    public Pokemon WildPoke()
+    {
+        //GameObject go = Instantiate(Resources.Load("MyPrefab")) as GameObject;
+        int chance = Random.Range(0, 100);
+        if (chance < 50)
+        {
+            return Instantiate(areaPoke[0]);
+        }
+        else return Instantiate(areaPoke[1]);
+        
+    }
+    
+
 	// Use this for initialization
 	void Start () {
 	

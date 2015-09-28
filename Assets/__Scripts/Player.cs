@@ -113,10 +113,10 @@ public class Player : MonoBehaviour {
                 {
                     MainScript.S.inBattle = true;
 					List<Pokemon> enemyPoke = new List<Pokemon>{};
-					Debug.Log ("Created List");
-                    int randomint = Random.Range(0, AreaPokemon.S.numberOfPoke);
-					enemyPoke.Add(AreaPokemon.S.areaPoke[randomint]);
+                    Pokemon wildPoke = AreaPokemon.S.WildPoke();
+					enemyPoke.Add(wildPoke);
 					StartBattle.S.SetArena(enemyPoke, "A wild pokemon appeared");
+                    //Destroy(wildPoke);
                 }
             }
                 //

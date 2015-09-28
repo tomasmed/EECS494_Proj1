@@ -22,13 +22,12 @@ public class StartBattle : MonoBehaviour {
 
     public void SetArena(List<Pokemon> enemies ,string message)
     {
-		//NEED SOMETHING TO WAIT TILL player presses A
-		/*
+		
         DialogScript.S.gameObject.SetActive(true);
         Color noAlpha = GameObject.Find("DialogBackground").GetComponent<GUITexture>().color;
         noAlpha.a = 255;
         GameObject.Find("DialogBackground").GetComponent<GUITexture>().color = noAlpha;
-        DialogScript.S.ShowMessage(message);*/
+        DialogScript.S.ShowMessage(message);
         
         gameObject.SetActive(true);
         Color ColorOp = gameObject.GetComponentInChildren<GUITexture>().color;
@@ -37,6 +36,7 @@ public class StartBattle : MonoBehaviour {
 
         BattleMenu.S.gameObject.SetActive(true);
         BattleMenu.S.InitializeBattle();
+
 		foreach(Pokemon poke in enemies)
 		{
             battleIsOver = false;
