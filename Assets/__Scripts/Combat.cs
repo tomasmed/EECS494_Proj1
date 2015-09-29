@@ -34,6 +34,7 @@ public class Combat : MonoBehaviour {
                 alive = false;
                 
                 StartBattle.S.battleIsOver = true;
+                playersTurn = true;
                 break;
             }
                 
@@ -51,6 +52,7 @@ public class Combat : MonoBehaviour {
 
                 alive = false;
                 StartBattle.S.battleIsOver = true;
+                playersTurn = true;
                 break;
 
             }
@@ -74,7 +76,7 @@ public class Combat : MonoBehaviour {
 			{
 				Debug.Log ("Oponent's Turn");
 				OponentTurn(playersPoke , Oponent);
-                yield return new WaitForSeconds(2);
+                yield return new WaitForSeconds(0.5f);
 
             }
           
@@ -99,7 +101,7 @@ public class Combat : MonoBehaviour {
 	public void OponentTurn(Pokemon playersPoke, Pokemon oponentsPoke)
 	{
 		playersTurn = true;
-		Debug.Log ("Oponent always attacks!");
+		Debug.Log (oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
 		ShowText(oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
 		Damage (playersPoke, oponentsPoke.move1);
 	}

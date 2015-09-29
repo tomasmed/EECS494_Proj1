@@ -51,14 +51,18 @@ public class ATKMenu : MonoBehaviour {
 		} 
 		else 
 		{
-			if (Input.GetKeyDown (KeyCode.S)) {
+            Color noAlpha = gameObject.GetComponent<GUITexture>().color;
+            noAlpha.a = 255;
+            gameObject.GetComponent<GUITexture>().color = noAlpha;
+            if (Input.GetKeyDown (KeyCode.S)) {
 				gameObject.SetActive (false);
 				print ("Returning to main Battle menu");
 				BattleMenu.S.gameObject.SetActive (true);
 				//MainScript.S.paused = false;
 			} 
 			if (Input.GetKeyDown (KeyCode.A) && !MainScript.S.inDialog) {
-				switch (activeATK) {
+               
+                switch (activeATK) {
 				case 0:
 					//print("Selected : Move1");
 					dmgMove = Party.S.activePokemonInParty.move1;

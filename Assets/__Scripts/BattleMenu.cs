@@ -25,6 +25,10 @@ public class BattleMenu : MonoBehaviour {
 		bool first = true;
         activeOption = 0;
 
+        Color yes_alpha = gameObject.GetComponent<GUITexture>().color; 
+        yes_alpha.a = 255;
+        gameObject.GetComponent<GUITexture>().color = yes_alpha;
+
         foreach (Transform child in transform)
         {
             BattleOptions.Add(child.gameObject);
@@ -50,6 +54,9 @@ public class BattleMenu : MonoBehaviour {
 		}
 		else 
 		{
+            Color noAlpha = gameObject.GetComponent<GUITexture>().color;
+			noAlpha.a = 255;
+			gameObject.GetComponent<GUITexture>().color  = noAlpha;
 			if (Input.GetKeyDown(KeyCode.A) && !MainScript.S.inDialog)
 			{
 				gameObject.SetActive(true);
