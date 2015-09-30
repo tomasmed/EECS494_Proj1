@@ -57,6 +57,11 @@ public class Combat : MonoBehaviour {
 
             }
 
+			playersPoke = Party.S.activePokemonInParty;
+			
+			GameObject.Find ("Player's_GUI").GetComponent<GUITexture>().texture = playersPoke.pokeTexture.texture;
+			GameObject.Find ("Oponent's_GUI").GetComponent<GUITexture>().texture = Oponent.pokeTexture.texture;
+
             GameObject.Find ("Player's_GUI").GetComponent<GUIText>().text = ("Hp : " + playersPoke.hp);
 			GameObject.Find ("Oponent's_GUI").GetComponent<GUIText>().text = ("Hp : " + Oponent.hp);
             Color black_col = Color.black; 
@@ -82,11 +87,12 @@ public class Combat : MonoBehaviour {
           
 
 		}
+		BattleMenu.S.can_move = true;
         Debug.Log("Battle is Over");
 		StartBattle.S.EndBattle ();
     }
 
-    IEnumerator WaitForKeyDown(KeyCode keyCode)
+    public IEnumerator WaitForKeyDown(KeyCode keyCode)
     {
         while (!Input.GetKeyDown(keyCode))
             yield return null;
@@ -95,12 +101,14 @@ public class Combat : MonoBehaviour {
 
     public void PlayerTurn(Pokemon playersPoke, Pokemon oponentsPoke)
 	{
-		BattleMenu.S.SelectOption (false, oponentsPoke, true); 
+		BattleMenu.S.can_move = true;
+		BattleMenu.S.SelectOption (false, oponentsPoke, true , false); 
 	}
 
 	public void OponentTurn(Pokemon playersPoke, Pokemon oponentsPoke)
 	{
 		playersTurn = true;
+
 		Debug.Log (oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
 		ShowText(oponentsPoke.pokeName + " Used " + oponentsPoke.move1);
 		Damage (playersPoke, oponentsPoke.move1);
@@ -124,25 +132,36 @@ public class Combat : MonoBehaviour {
         //Logic for Super effective/Not very efective + misses
         int willhit = Random.Range(0, 101);
         int mult = 1;
+		int mult2 = 1;
         if (willhit - move.accuracy > 0)
         {
 			ShowText("Attack missed!");
         }
         else
         {
-            mult = SuperEffective(objective.type, move.type);
+            mult = SuperEffective(objective.type, objective.type2, move.type);
+			mult2 = NotEffective(objective.type, objective.type2, move.type);
 			ShowText(objective.pokeName + " Took " + move.damage + " from " + move.moveName);
-            objective.hp -= move.damage*mult;
+            objective.hp -= move.damage*mult/mult2;
         }
     }
-    public int SuperEffective(string target, string move)
+    public int SuperEffective(string target,string target2, string move)
     {
-        if (target == "Normal" && move == "Fight")
-        {
-			ShowText("SUPER EFECTIVE");
-            return 2;
-        }
-        else return 1;
-    }
+        if ((target == "Normal" || target2 == "Normal") && move == "Fight") {
+			ShowText ("SUPER EFECTIVE");
+			return 2;
+		} else
+			return 1;
+	}
 
+	public int NotEffective(string target,string target2, string move)
+	{
+		if ((target == "Poison" || target2 == "Poison") && move == "Fairy") {
+			ShowText ("Not very effective");
+			return 2;
+		} else
+			return 1;
+
+
+	}
 }

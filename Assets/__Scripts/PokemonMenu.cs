@@ -45,13 +45,21 @@ public class PokemonMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S) && !MainScript.S.inBattle)
         {
             gameObject.SetActive(false);
             print("Returning to main menu");
             Menu.S.gameObject.SetActive(true);
             //MainScript.S.paused = false;
-        }
+		}
+		else if (Input.GetKeyDown(KeyCode.S) && MainScript.S.inBattle)
+		{
+			gameObject.SetActive(false);
+			print("Returning to main menu");
+			BattleMenu.S.can_move = true;
+			//Menu.S.gameObject.SetActive(true);
+			//MainScript.S.paused = false;
+		}
         else
         {
             if (Input.GetKeyDown(KeyCode.A))
@@ -59,21 +67,63 @@ public class PokemonMenu : MonoBehaviour
                 switch (activePokemon)
                 {
                     case 0:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[0];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[0].pokeName);
                         break;
                     case 1:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[1];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[1].pokeName);
                         break;
                     case 2:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[2];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[2].pokeName);
                         break;
                     case 3:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[3];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[3].pokeName);
                         break;
                     case 4:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[4];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[4].pokeName);
                         break;
                     case 5:
+					if (MainScript.S.inBattle)
+					{
+						Party.S.activePokemonInParty = Party.S.pokemonInParty[5];
+						ATKMenu.S.UpdateOptions();
+						Combat.S.playersTurn = false;
+						gameObject.SetActive(false);
+					}
                         print("Selected : " + Party.S.pokemonInParty[5].pokeName);
                         break;
                 }

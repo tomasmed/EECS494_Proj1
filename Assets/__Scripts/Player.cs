@@ -99,12 +99,13 @@ public class Player : MonoBehaviour {
             }
             else if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] { "Ledge" })) && direction == Direction.down)
             {
+				//if (Input.GetKeyDown(KeyCode.DownArrow)){
                 moveVec = Vector3.down;
                 direction = Direction.down;
                 sprend.sprite = downSprite;
                 moving = true;
                 targetPos = transform.position + moveVec;
-                transform.position += ((targetPos - transform.position).normalized * moveSpeed * Time.fixedDeltaTime).normalized;
+					transform.position += ((targetPos - transform.position).normalized * moveSpeed * Time.fixedDeltaTime).normalized;//}
             }
             else if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] { "Grass" })))
             {
@@ -160,9 +161,11 @@ public class Player : MonoBehaviour {
         else if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] { "Item" })))
         {
             Item item = hitInfo.collider.gameObject.GetComponent<Item>();
-            item.sprend.sprite = null;
+            //item.sprend.sprite = null;
             item.PlayIDialog();
-        }
+
+			
+		}
     }
 
 

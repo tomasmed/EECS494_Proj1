@@ -7,6 +7,7 @@ public class Item : MonoBehaviour {
 
     public Sprite sprite;
     public SpriteRenderer sprend;
+	public bool isKeyItem;
 
     public bool ____________;
 
@@ -14,6 +15,7 @@ public class Item : MonoBehaviour {
 
     public void PlayIDialog()
     {
+
         speech = Player.S.name + " found a " + name + "!";
         print(speech);
         DialogScript.S.gameObject.SetActive(true);
@@ -26,8 +28,15 @@ public class Item : MonoBehaviour {
     }
 
     public void Pickup() {
-        Player.S.inventory[Player.S.currentInvSize] = name;
-        Player.S.currentInvSize++;
+		//GameObject.Find("Inventory")
+
+		Inventory.S.itemsInInventory.Add (this);
+		gameObject.GetComponent<BoxCollider> ().enabled = false;
+		sprend.sprite = null;
+		ItemMenu.S.Update_Menu ();
+
+        //Player.S.inventory[Player.S.currentInvSize] = name;
+        //Player.S.currentInvSize++;
     }
 
 
@@ -39,5 +48,12 @@ public class Item : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+
+
+	public virtual void Use()
+	{
+
 	}
 }

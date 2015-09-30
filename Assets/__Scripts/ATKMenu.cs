@@ -14,7 +14,14 @@ public class ATKMenu : MonoBehaviour {
 		S = this;
 		gameObject.SetActive (false);
 	}
-	// Use this for initialization
+
+
+	public void UpdateOptions()
+	{
+		Start ();
+	}
+
+
 	void Start () {
 		bool first = true;
 		activeATK = 0;
@@ -57,6 +64,7 @@ public class ATKMenu : MonoBehaviour {
             if (Input.GetKeyDown (KeyCode.S)) {
 				gameObject.SetActive (false);
 				print ("Returning to main Battle menu");
+				BattleMenu.S.can_move = true;
 				BattleMenu.S.gameObject.SetActive (true);
 				//MainScript.S.paused = false;
 			} 
@@ -66,22 +74,22 @@ public class ATKMenu : MonoBehaviour {
 				case 0:
 					//print("Selected : Move1");
 					dmgMove = Party.S.activePokemonInParty.move1;
-					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false, false);
 					break;
 				case 1:
 					//print("Selected : Move2");
 					dmgMove = Party.S.activePokemonInParty.move2;
-					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false, false);
 					break;
 				case 2:
 					//print("Selected : move3");
 					dmgMove = Party.S.activePokemonInParty.move3;
-					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false, false);
 					break;
 				case 3:
 					//print("Selected : Move4");
 					dmgMove = Party.S.activePokemonInParty.move4;
-					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false);
+					BattleMenu.S.SelectOption (true, Combat.S.oponentsPoke, false, false);
 					break;
 				}
 			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {

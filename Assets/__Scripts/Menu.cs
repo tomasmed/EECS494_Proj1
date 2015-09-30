@@ -61,7 +61,7 @@ public class Menu : MonoBehaviour {
         }
         else if (MainScript.S.paused)
         {
-            if(Input.GetKeyDown(KeyCode.Return))
+            if(Input.GetKeyDown(KeyCode.A))
             {
                 switch(activeItem)
                 {
@@ -75,6 +75,8 @@ public class Menu : MonoBehaviour {
                         print("pokemon menu selcted");
                         break;
                     case (int)menuItem.item:
+						ItemMenu.S.gameObject.SetActive(true);
+						gameObject.SetActive(false);
                         print("item menu selcted");
                         break;
                     case (int)menuItem.player:
@@ -87,7 +89,8 @@ public class Menu : MonoBehaviour {
                         print("option menu selcted");
                         break;
                     case (int)menuItem.exit:
-                        print("exit menu selcted");
+						gameObject.SetActive(false);
+						MainScript.S.paused = false;
                         break;
 
                 }

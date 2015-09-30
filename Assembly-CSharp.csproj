@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{52887F0E-73B0-F02F-AC94-6E1E2DD11614}</ProjectGuid>
+	<ProjectGuid>{A0824F3F-F03D-93D2-1EA2-38704F450F69}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,10 +38,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,7 @@
      <Compile Include="Assets\__Scripts\Combat.cs" />
      <Compile Include="Assets\__Scripts\DialogScript.cs" />
      <Compile Include="Assets\__Scripts\Door.cs" />
+     <Compile Include="Assets\__Scripts\Inventory.cs" />
      <Compile Include="Assets\__Scripts\Item.cs" />
      <Compile Include="Assets\__Scripts\ItemMenu.cs" />
      <Compile Include="Assets\__Scripts\MainScript.cs" />
@@ -60,25 +61,29 @@
      <Compile Include="Assets\__Scripts\NPC.cs" />
      <Compile Include="Assets\__Scripts\Party.cs" />
      <Compile Include="Assets\__Scripts\Player.cs" />
+     <Compile Include="Assets\__Scripts\Pokeball.cs" />
      <Compile Include="Assets\__Scripts\Pokemon.cs" />
      <Compile Include="Assets\__Scripts\PokemonMenu.cs" />
+     <Compile Include="Assets\__Scripts\Potion.cs" />
      <Compile Include="Assets\__Scripts\ShowMapOnCamera.cs" />
      <Compile Include="Assets\__Scripts\StartBattle.cs" />
      <Compile Include="Assets\__Scripts\Tile.cs" />
      <Compile Include="Assets\__Scripts\Trainer.cs" />
+     <Compile Include="Assets\__Scripts\UseOnPokeMenu.cs" />
+     <Compile Include="Assets\__Scripts\UseTossMenu.cs" />
      <None Include="Assets\Collision.txt" />
      <None Include="Assets\spriteText.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Unity5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>D:/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <HintPath>D:/Unity5/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>D:/Unity5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

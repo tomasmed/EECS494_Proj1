@@ -34,20 +34,21 @@ public class StartBattle : MonoBehaviour {
         ColorOp.a = 255;
         gameObject.GetComponentInChildren<GUIText>().color = ColorOp;
 
-        BattleMenu.S.gameObject.SetActive(true);
-        BattleMenu.S.InitializeBattle();
+		BattleMenu.S.gameObject.SetActive (true);
 
-		foreach(Pokemon poke in enemies)
-		{
-            battleIsOver = false;
-			StartCoroutine(Combat.S.Fight(poke));
+
+		BattleMenu.S.InitializeBattle ();
+	
+		foreach (Pokemon poke in enemies) {
+			battleIsOver = false;
+			StartCoroutine (Combat.S.Fight (poke));
 		}
-        Debug.Log("Combat is Over");
-        if (battleIsOver)
-        {
-            gameObject.SetActive(false);
-        }
-        //gameObject.SetActive(false);
+		Debug.Log ("Combat is Over");
+		if (battleIsOver) {
+			gameObject.SetActive (false);
+		}
+
+			//gameObject.SetActive(false);}
     }
     public void EndBattle()
     {
